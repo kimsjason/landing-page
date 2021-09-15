@@ -5,6 +5,7 @@ html {
 
 *, *::before, *::after {
     box-sizing: inherit;
+    margin: 0;
 }
 
 body {
@@ -37,4 +38,48 @@ a {
     color: #e5e7eb;
     text-decoration: none;
     padding: 0 20px;
+}
+
+/* MAIN STYLES */
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    margin: 50px 100px;
+    padding: 25px;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 150px;
+    margin-right: 150px;
+    
+    background-color: gray;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.main button {
+    margin: 10px 0;
+    padding: 8px 40px;
+    background-color: #3382f6;
+    color: #f9faf8;
+    border: none;
+    border-radius: 5px;
 }
