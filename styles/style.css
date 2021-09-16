@@ -105,6 +105,7 @@ a {
     display: flex;
     justify-content: center;
     gap: 40px;
+    margin-bottom: 50px;
 }
 
 .image-container {
@@ -135,7 +136,7 @@ a {
     display: flex;
     flex-direction: column;
     background-color: #e5e7eb;
-    padding: 75px 250px;
+    padding: 75px 350px;
     color: #1f2937;
 }
 
@@ -149,4 +150,32 @@ a {
     font-size: 16px;
     font-weight: 900;
     padding: 15px;
+}
+
+/* FOOTER STYLES */
+.signup-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 75px 200px;
+    padding: 50px 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: #3382f6;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.signup-container button {
+    background-color: #3382f6;
+    padding: 0 30px;
+    border: 1px solid white;
+    border-radius: 3px;
+    color: white;
 }
