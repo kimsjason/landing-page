@@ -55,7 +55,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     width: 400px;
-    margin: 50px 100px;
+    margin: 75px 180px;
     padding: 25px;
 }
 
@@ -64,9 +64,8 @@ a {
     justify-content: center;
     align-items: center;
     width: 400px;
-    height: 150px;
-    margin-right: 150px;
-    
+    height: 200px;
+    margin-right: 225px;
     background-color: gray;
 }
 
